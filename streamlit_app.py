@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd, duckdb, re, matplotlib.pyplot as plt
 from io import StringIO
 
-st.title("🤖 Conversational BI Assistant")
+st.title("Conversational BI Assistant")
 st.caption("Ask business questions in natural language. This starter routes to SQL patterns over DuckDB.")
 
 @st.cache_data
